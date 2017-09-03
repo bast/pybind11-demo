@@ -6,6 +6,8 @@
 
 Demonstrates how to call a C++ class from Python using pybind11.
 
+Tested on Linux and Mac: https://travis-ci.org/bast/pybind11-demo/builds
+
 
 ## How to build this demo
 

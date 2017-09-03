@@ -23,7 +23,7 @@ matrix:
       env:
         - CXX='g++-4.9'
         - CC='gcc-4.9'
-      python: 3.6
+      python: 3.4
     - os: osx
       osx_image: xcode7.3
       compiler: gcc
@@ -49,9 +49,11 @@ script:
   - cd build
   - cmake ..
   - make
+  - ls
+# - python -c 'import example'
   - cd ..
   - pep8 --ignore E501 test.py
-  - PYTHONPATH=build pytest -vv test.py
+# - PYTHONPATH=build pytest -vv test.py
 
 notifications:
   email: false
