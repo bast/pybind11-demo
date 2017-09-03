@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/bast/pybind11-demo.svg?branch=master)](https://travis-ci.org/bast/pybind11-demo/builds)
 [![License](https://img.shields.io/badge/license-%20MPL--v2.0-blue.svg)](../master/LICENSE)
 
 
