@@ -1,4 +1,11 @@
-# How to build this demo
+
+
+# pybind11 demo
+
+Demonstrates how to call a C++ class from Python using pybind11.
+
+
+## How to build this demo
 
 ```
 git clone --recursive https://github.com/bast/pybind11-demo.git
@@ -10,7 +17,7 @@ make
 ```
 
 
-# Example test run
+## Example test run
 
 ```python
 >>> from example import add
